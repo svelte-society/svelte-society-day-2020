@@ -393,15 +393,15 @@ blockquote footer {
 /* Custom styles */
 @font-face {
   font-family: Inter;
-  src: url(fonts/Inter-Regular.ttf);
+  src: url(fonts/Inter-Regular.woff2);
 }
 @font-face {
   font-family: Overpass;
-  src: url(fonts/Overpass-SemiBold.ttf);
+  src: url(fonts/Overpass-SemiBold.woff2);
   font-weight: 600;
 }
 @font-face {
   font-family: Overpass;
-  src: url(fonts/Overpass-Bold.ttf);
+  src: url(fonts/Overpass-Bold.woff2);
   font-weight: bold;
 }
