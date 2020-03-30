@@ -9,6 +9,11 @@
   nav {
     margin: 0;
   }
+  @media screen and (max-width: 840px) {
+    nav {
+      flex-direction: column;
+    }
+  }
   h1 {
     margin: 0 0 0 35px;
     padding: 0;
