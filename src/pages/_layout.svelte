@@ -9,6 +9,11 @@
   nav {
     margin: 0;
   }
+  @media screen and (max-width: 840px) {
+    nav {
+      flex-direction: column;
+    }
+  }
   h1 {
     margin: 0 0 0 35px;
     padding: 0;
@@ -29,10 +34,43 @@
 </style>
 
 <svelte:head>
-  <title>Svelte Society Day</title>
+  <title>Svelte Society Day 2020</title>
+  <meta
+    name="description"
+    content="An online full-day conference on all things Svelte" />
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Svelte Society Day 2020" />
+  <meta
+    itemprop="description"
+    content="An online full-day conference on all things Svelte" />
+  <meta itemprop="image" content="http://sveltesociety.dev/introduction.svg" />
+
+  <!-- Facebook Meta Tags -->
+  <meta
+    property="og:url"
+    content="https://svelte-society-day-2020-r3fq9w6qk.now.sh" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Svelte Society Day 2020" />
+  <meta
+    property="og:description"
+    content="An online full-day conference on all things Svelte" />
+  <meta
+    property="og:image"
+    content="http://sveltesociety.dev/introduction.svg" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Svelte Society Day 2020" />
+  <meta
+    name="twitter:description"
+    content="An online full-day conference on all things Svelte" />
+  <meta
+    name="twitter:image"
+    content="http://sveltesociety.dev/introduction.svg" />
 </svelte:head>
 
-<div class="shaded">
+<div class="shaded" id="title">
   <header>
     <nav>
       <div class="logo">
@@ -43,10 +81,10 @@
       </div>
       <ul>
         <li>
-          <a href="#docs">HOME</a>
+          <a href="#title">HOME</a>
         </li>
         <li>
-          <a href="#docs">DOCS</a>
+          <a href="#cfp">CALL FOR PROPOSALS</a>
         </li>
         <li>
           <a href="#faq">FAQ</a>
