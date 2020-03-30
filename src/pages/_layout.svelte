@@ -54,9 +54,7 @@
   <meta itemprop="image" content="http://sveltesociety.dev/introduction.svg" />
 
   <!-- Facebook Meta Tags -->
-  <meta
-    property="og:url"
-    content="https://svelte-society-day-2020-r3fq9w6qk.now.sh" />
+  <meta property="og:url" content="http://sveltesociety.dev/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Svelte Society Day 2020" />
   <meta
