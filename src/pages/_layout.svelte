@@ -35,6 +35,13 @@
 
 <svelte:head>
   <title>Svelte Society Day 2020</title>
+  <script
+    async
+    defer
+    data-domain="sveltesociety.dev"
+    src="https://plausible.io/js/plausible.js">
+
+  </script>
   <meta
     name="description"
     content="An online full-day conference on all things Svelte" />
