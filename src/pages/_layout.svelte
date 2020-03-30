@@ -51,7 +51,7 @@
   <meta
     itemprop="description"
     content="An online full-day conference on all things Svelte" />
-  <meta itemprop="image" content="http://sveltesociety.dev/introduction.svg" />
+  <meta itemprop="image" content="http://sveltesociety.dev/introduction.png" />
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="http://sveltesociety.dev/" />
@@ -62,7 +62,7 @@
     content="An online full-day conference on all things Svelte" />
   <meta
     property="og:image"
-    content="http://sveltesociety.dev/introduction.svg" />
+    content="http://sveltesociety.dev/introduction.png" />
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -72,7 +72,7 @@
     content="An online full-day conference on all things Svelte" />
   <meta
     name="twitter:image"
-    content="http://sveltesociety.dev/introduction.svg" />
+    content="http://sveltesociety.dev/introduction.png" />
 </svelte:head>
 
 <div class="shaded" id="title">
