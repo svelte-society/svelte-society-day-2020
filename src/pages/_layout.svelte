@@ -34,44 +34,40 @@
 </style>
 
 <svelte:head>
-  <title>Svelte Society Day 2020 - A 1-day Online Conference</title>
+  <title>Svelte Society Day 2020</title>
   <meta
-    prefix="og: http://ogp.me/ns#"
-    property="og:title"
-    content="Svelte Society Day 2020 - An online 1-day Svelte conference" />
+    name="description"
+    content="An online full-day conference on all things Svelte" />
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Svelte Society Day 2020" />
   <meta
-    prefix="og: http://ogp.me/ns#"
+    itemprop="description"
+    content="An online full-day conference on all things Svelte" />
+  <meta itemprop="image" content="http://sveltesociety.dev/introduction.svg" />
+
+  <!-- Facebook Meta Tags -->
+  <meta
     property="og:url"
-    content="https://sveltesociety.dev/" />
+    content="https://svelte-society-day-2020-r3fq9w6qk.now.sh" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Svelte Society Day 2020" />
   <meta
-    prefix="og: http://ogp.me/ns#"
     property="og:description"
-    content="Svelte Society Day 2020 - An online 1-day Svelte conference" />
+    content="An online full-day conference on all things Svelte" />
   <meta
-    prefix="og: http://ogp.me/ns#"
-    property="og:image:secure_url"
-    content="https://sveltesociety.dev/logo.jpg" />
-  <meta
-    prefix="og: http://ogp.me/ns#"
     property="og:image"
-    content="https://sveltesociety.dev/logo.jpg" />
-  <meta property="og:image" content="https://sveltesociety.dev/logo.jpg" />
-  <meta
-    property="og:site_name"
-    content="Svelte Society Day 2020 - A 1-day Online Conference" />
+    content="http://sveltesociety.dev/introduction.svg" />
+
+  <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@sveltesociety" />
-  <meta name="twitter:creator" content="@sveltesociety" />
-  <meta
-    name="twitter:title"
-    content="Svelte Society Day 2020 - 1-day Online Conference" />
-  <meta
-    name="twitter:image"
-    content="Svelte Society Day 2020 - An online 1-day Svelte conference" />
+  <meta name="twitter:title" content="Svelte Society Day 2020" />
   <meta
     name="twitter:description"
-    content="Let's get together for a one day event all about Svelte. Watch some
-    talks, learn a thing or two and get to know the community!" />
+    content="An online full-day conference on all things Svelte" />
+  <meta
+    name="twitter:image"
+    content="http://sveltesociety.dev/introduction.svg" />
 </svelte:head>
 
 <div class="shaded" id="title">
