@@ -8,4 +8,6 @@
   <Introduction />
   <CallForProposals />
 </main>
-<FAQ />
+<div id="faq">
+  <FAQ />
+</div>
