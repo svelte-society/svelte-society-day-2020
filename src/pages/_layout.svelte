@@ -89,7 +89,7 @@
           <a href="#title">HOME</a>
         </li>
         <li>
-          <a href="#cfp">CALL FOR PROPOSALS</a>
+          <a href="#speakers">Speakers</a>
         </li>
         <li>
           <a href="#faq">FAQ</a>
