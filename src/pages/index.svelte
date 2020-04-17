@@ -1,13 +1,16 @@
 <script>
   import Introduction from "components/Introduction.svelte";
-  import CallForProposals from "components/CallForProposals.svelte";
+  import Speakers from "components/Speakers.svelte";
   import FAQ from "components/FAQ.svelte";
 </script>
 
 <main>
   <Introduction />
-  <CallForProposals />
 </main>
+<div id="speakers">
+  <Speakers />
+</div>
+
 <div id="faq">
   <FAQ />
 </div>
