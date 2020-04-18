@@ -31,6 +31,10 @@
     display: flex;
     align-items: center;
   }
+  img {
+    width: 92px;
+    height: 92px;
+  }
 </style>
 
 <svelte:head>
@@ -80,7 +84,7 @@
     <nav>
       <div class="logo">
         <a href="/">
-          <img alt="Svelte Society Logo" src="./logo.jpg" />
+          <img alt="Svelte Society Logo" src="./logo.svg" />
         </a>
         <h1>SVELTE SOCIETY DAY</h1>
       </div>
