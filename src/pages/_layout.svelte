@@ -89,7 +89,7 @@
           <a href="#title">HOME</a>
         </li>
         <li>
-          <a href="#speakers">Speakers</a>
+          <a href="#speakers">SPEAKERS</a>
         </li>
         <li>
           <a href="#faq">FAQ</a>
